@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>B M W  Cars Website</title>
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="background-image: url(images3/image1.png);" class="header" id="header">
+   <nav>
+    <img src="images3/logo1.png" class="logo">
+    <ul>
+      <li><a href="#" id="BMW X1">BMW X1</a></li>
+      <li><a href="#" id="BMW X2">BMW X2</a></li>
+	  <li><a href="#" id="BMW X3">BMW X3</a></li>
+	  <li><a href="#" id="BMW X4">BMW X4</a></li>
+    </ul>
+    <a href="bmw1.html"  class="btn">Reserve Now</a>
+   </nav>
+   
+   <div class="info">
+      <div>
+	     <h2 id="Model1">2.3 S</h2>
+		 <p>120 mph</p>
+	  </div>
+	  <div>
+	     <h2 id="Model2">420 mph</h2>
+		 <p>Top speed</p>
+	  </div>
+	  <div>
+	     <h2 id="Model3">250 mi</h2>
+		 <p>Max Range</p>
+	  </div>
+	  <div class="line">
+	  </div>
+	  <div>
+	     <h2 id="Model">BMW X1</h2>
+	  </div>
+  </div>
+  
+ </div>
+ 
+ <script>
+    
+	var header=document.getElementById("header");
+	var x1=document.getElementById("BMW X1");
+	var x2=document.getElementById("BMW X2");
+	var x3=document.getElementById("BMW X3");
+	var x4=document.getElementById("BMW X4");
+	x1.onclick=function(){
+	   header.style.backgroundImage="url(images3/image1.png)";
+	   Model.innerHTML="BMW X1";
+	   Model1.innerHTML="2.3 S";
+	   Model2.innerHTML="420 mph";
+	   Model3.innerHTML="250 mi";
+	 }
+	x2.onclick=function(){
+	   header.style.backgroundImage="url(images3/image2.png)";
+	   Model.innerHTML="BMW X2";
+	   Model1.innerHTML="1.5 S";
+	   Model2.innerHTML="360 mph";
+	   Model3.innerHTML="110 mi";
+	 }
+	x3.onclick=function(){
+	   header.style.backgroundImage="url(images3/image3.png)";
+	   Model.innerHTML="BMW X3";
+	   Model1.innerHTML="3.4 S";
+	   Model2.innerHTML="480 mph";
+	   Model3.innerHTML="180 mi";
+	 }
+	x4.onclick=function(){
+	   header.style.backgroundImage="url(images3/image4.png)";
+	   Model.innerHTML="BMW X4";
+	   Model1.innerHTML="4.5 S";
+	   Model1.innerHTML="550 mph";
+	   Model1.innerHTML="200 mi";
+	 }
+ </script>
+</body>
+</html>

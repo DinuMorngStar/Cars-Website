@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title> Audi Car Website</title>
+	 <link rel="stylesheet" href="style.css">
+	 <style>
+	 h2{
+	   color:#fff;
+	  }
+	  </style>
+</head>
+<body>
+  <div style="background-image: url(images2/image1.png);" class="header" id="header">
+   <nav>
+    <img src="images2/logo2.png" class="logo">
+    <ul>
+      <li><a href="#" id="Audi A5">Audi A5</a></li>
+      <li><a href="#" id="Audi Q3">Audi Q3</a></li>
+	  <li><a href="#" id="Audi Q8">Audi Q8</a></li>
+	  <li><a href="#" id="Audi B8">Audi B8</a></li>
+    </ul>
+    <a href="audi1.html" class="btn">Reserve Now</a>
+   </nav>
+   
+    <div class="info">
+      <div>
+	     <h2 id="Model1">1.5 S</h2>
+		 <p>60 mph</p>
+	  </div>
+	  <div>
+	     <h2 id="Model2">360 mph</h2>
+		 <p>Top speed</p>
+	  </div>
+	  <div>
+	     <h2 id="Model3" >110 mi</h2>
+		 <p>Max Range</p>
+	  </div>
+	  <div class="line">
+	  </div>
+	  <div>
+	     <h2 id="Model">Audi A5</h2>
+	  </div>
+    </div>
+  </div>
+ 
+ <script>
+    
+	var header=document.getElementById("header");
+	var a5=document.getElementById("Audi A5");
+	var q3=document.getElementById("Audi Q3");
+	var q8=document.getElementById("Audi Q8");
+	var b8=document.getElementById("Audi B8");
+	
+	
+	a5.onclick=function(){
+	   header.style.backgroundImage="url(images2/image1.png)";
+	   Model.innerHTML="Audi A5";
+	   Model.innerHTML="1.5 S";
+	   Mode2.innerHTML="360 mph";
+	   Mode3.innerHTML="110 mi";
+	 }
+	q3.onclick=function(){
+	   header.style.backgroundImage="url(images2/image3.png)";
+	   Model.innerHTML="Audi Q3";
+	   Model1.innerHTML="2.0 S";
+	   Model2.innerHTML="400 mph";
+	   Model3.innerHTML="140 mi";
+	 }
+	q8.onclick=function(){
+	   header.style.backgroundImage="url(images2/image2.png)";
+	   Model.innerHTML="Audi Q8";
+	   Model1.innerHTML="2.5 S";
+	   Model2.innerHTML="450 mph";
+	   Model3.innerHTML="240 mi";
+	 }
+	b8.onclick=function(){
+	   header.style.backgroundImage="url(images2/image4.png)";
+	   Model.innerHTML="Audi B8";
+	   Model1.innerHTML="3.0 S";
+	   Model2.innerHTML="500 mph";
+	   Model3.innerHTML="360 mi";
+	 }
+	
+ </script>
+</body>
+</html>

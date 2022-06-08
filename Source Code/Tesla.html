@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>Tesla Car Website</title>
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="background-image: url(images/image1.png);" class="header" id="header">
+   <nav>
+    <img src="images/logo1.png" class="logo">
+    <ul>
+      <li><a href="#" id="Model S">Model S</a></li>
+      <li><a href="#" id="Model 3">Model 3</a></li>
+	  <li><a href="#" id="Model X">Model X</a></li>
+	  <li><a href="#" id="Model Y">Model Y</a></li>
+    </ul>
+    <a href="tesla1.html" class="btn">Reserve Now</a>
+   </nav>
+   
+   <div class="info">
+      <div>
+	     <h2 id="Model1">1.9 S</h2>
+		 <p>60 mph</p>
+	  </div>
+	  <div>
+	     <h2 id="Model2" >200 mph</h2>
+		 <p>Top speed</p>
+	  </div>
+	  <div>
+	     <h2 id="Model3">396 mi</h2>
+		 <p>Max Range</p>
+	  </div>
+	  <div class="line">
+	  </div>
+	  <div>
+	     <h2 id="Model">Model S</h2>
+	  </div>
+  </div>
+  
+ </div>
+ 
+ <script>
+    
+	var header=document.getElementById("header");
+	var ms=document.getElementById("Model S");
+	var m3=document.getElementById("Model 3");
+	var mx=document.getElementById("Model X");
+	var my=document.getElementById("Model Y");
+	
+	ms.onclick=function(){
+	   header.style.backgroundImage="url(images/image1.png)";
+	   Model.innerHTML="Model S";
+	   Model1.innerHTML="1.9 S";
+	   Model2.innerHTML="200 mph";
+	   Model3.innerHTML="396 mi";
+	 }
+	m3.onclick=function(){
+	   header.style.backgroundImage="url(images/image2.png)";
+	   Model.innerHTML="Model 3";
+	   Model1.innerHTML="2.5 S";
+	   Model2.innerHTML="450 mph";
+	   Model3.innerHTML="240 mi";
+	 }
+	mx.onclick=function(){
+	   header.style.backgroundImage="url(images/image3.png)";
+	   Model.innerHTML="Model X";
+	   Model1.innerHTML="3.0 S";
+	   Model2.innerHTML="550 mph";
+	   Model3.innerHTML="340 mi";
+	 }
+	my.onclick=function(){
+	   header.style.backgroundImage="url(images/image.png)";
+	   Model.innerHTML="Model Y";
+	   Model1.innerHTML="3.5 S";
+	   Model2.innerHTML="600 mph";
+	   Model3.innerHTML="500 mi";
+	 }
+	
+ </script>
+</body>
+</html>
